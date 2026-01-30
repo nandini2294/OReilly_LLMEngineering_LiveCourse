@@ -1,0 +1,44 @@
+name: tech2ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - numpy
+  - pandas
+  - scipy
+  - pytorch
+  - jupyterlab
+  - ipywidgets
+  - matplotlib
+  - scikit-learn
+  - chromadb
+  - jupyter-dash
+  - pip:
+    - beautifulsoup4
+    - plotly
+    - bitsandbytes
+    - transformers
+    - sentence-transformers
+    - datasets
+    - accelerate
+    - openai
+    - anthropic
+    - google-generativeai
+    - gradio
+    - gensim
+    - modal
+    - ollama
+    - psutil
+    - setuptools
+    - speedtest-cli
+    - feedparser
+    - twilio
+    - torchviz
+    - groq
+    - networkx
+    - openai-agents
+    - xgboost
